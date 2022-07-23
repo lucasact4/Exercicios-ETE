@@ -1,0 +1,25 @@
+Faça um programa para calcular o estoque médio de uma peça, sendo que: ESTOQUE MÉDIO = (QUANTIDADE_MÍNIMA + QUANTIDADE_MÁXIMA) / 2.
+
+Faça um programa que: Leia a cotação do dólar, Leia um valor em dólares, Converta esse valor para Real, Mostre o resultado
+
+Ler uma temperatura em graus Celsius e apresentá-Ia convertida em graus Fahrenheit. A fórmula de conversão de temperatura a
+ser utilizada é F = (9 * C + 160) / 5, em que a variável F representa é a temperatura em graus Fahrenheit e a variável C
+representa é a temperatura em graus Celsius.
+
+Ler uma temperatura em graus Fahrenheit e apresentá-Ia convertida em graus Celsius. A fórmula de conversão de temperatura
+a ser utilizada é C = (F - 32) * 5 / 9, em que a variável F é a temperatura em graus Fahrenheit e a variável C é
+a temperatura em graus Celsius.
+
+Escreva um programa que leia quatro notas escolares de um aluno e apresentar uma mensagem que o aluno foi aprovado se o
+valor da média escolar for maior ou igual a 7. Se o valor da média for menor que 7, solicitar a notado recuperação, somar
+com o valor da média e obter a nova média. Se a nova média for maior ou igual a 7,apresentar uma mensagem informando que o
+aluno foi aprovado na recuperação. Se o aluno não foi aprovado, apresentar uma mensagem informando esta condição. Apresentar
+junto com as mensagens o valor da média do aluno.
+
+Faça um programa que leia um número. Se positivo armazene-o em A, se for negativo, em B. No final mostrar o resultado.
+
+Escreva um programa que exiba as seguintes opções e realize os que se pede em cada uma delas: 1 – Adição, 2 – Subtração,
+3 – Multiplicação, 4 – Divisão
+
+Escreva um programa que leia dois números inteiros e apresente as opções para usuário escolher o que deseja realizar:
+1 – Verificar se os dois números lidos são pares 2 – Verificar se a média dos dois números é maior ou igual a 7. 3 – Sair
