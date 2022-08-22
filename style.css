@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+    --cor6: #3CD782;
+    --cor7: #1A5C38;
+}
+
+body {
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgb(159, 75, 237);
+    padding: 20px;
+    border-bottom: 2px solid #343434;
+}
+
+header h1 {
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+main {
+    background-color: white;
+    max-width: 1150px;
+    min-width: 200px;
+    padding: 20px;
+    margin: auto;
+}
+
+.artigo1 {
+    background-color: rgb(233, 233, 233);
+    padding: 10px;
+    border-radius: 5px;
+    height: 300px;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.artigo2 {
+    background-color: rgb(233, 233, 233);
+    padding: 10px;
+    border-radius: 5px;
+    height: 300px;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #111;
+    padding: 0px 0px 48px 0px;
+    border-top: 2px solid #343434;
+    color: #f9f9f9;
+}
+
+footer p {
+    color: #7e7e7e;
+}
+
+footer div.marcas {
+    text-align: center;
+}
+
+footer div.links {
+    font-family: 'Silkscreen', cursive;
+    background: #292929;
+    text-align: center;
+}
+
+footer div a {
+    color: #f9f9f9;
+}
