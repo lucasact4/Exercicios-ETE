@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('DIN\ Next\ LT\ Pro\ Regular.ttf');
+@font-face {
+    font-family: din;
+    src: url(DIN\ Next\ LT\ Pro\ Regular.ttf);
+}
 
 * {
     padding: 0px;
@@ -8,6 +13,7 @@
 }
 
 :root {
+    --font1: 'din';
     --cor0: #c5ebd6;
     --cor1: #83e1ad;
     --cor2: #3ddc84;
@@ -19,7 +25,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(15, 15, 15);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -45,6 +51,11 @@ main {
     margin: auto;
 }
 
+.artigo {
+    display: table;
+    padding-bottom: 100px;
+}
+
 .artigo1 {
     background-color: rgb(233, 233, 233);
     padding: 10px;
@@ -52,6 +63,7 @@ main {
     height: 300px;
     width: 500px;
     margin-bottom: 10px;
+    float: left;
 }
 
 .artigo2 {
@@ -61,11 +73,90 @@ main {
     height: 300px;
     width: 500px;
     margin-bottom: 10px;
+    margin-left: 120%;
+}
+
+.part1 {
+    background-color: #FF4655;
+    height: 500px;
+    padding: 10px;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.part2 {
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+}
+
+.part3 {
+    background-color: #0f1923;
+    width: 0px;
+    height: 50px;
+    transition-timing-function: ease-in;
+    transition: width .2s;
+    transition: border-top .2s;
+    border-top: 0px solid #4C4B63;
+    border-right: 10px solid transparent;
+    border-bottom: 0px solid transparent;
+}
+
+.part3:hover {
+    width: 290px;
+    border-top: 5px solid #FF4655;
+}
+
+.part33 {
+    background-color: #0f1923;
+    width: 0px;
+    height: 50px;
+    transition-timing-function: ease-in;
+    transition: width .2s;
+}
+
+.part33:hover {
+    width: 300px;
+}
+
+.part4 {
+    width: 300px;
+    height: 50px;
+    display: block;
+}
+
+.part5 {
+    color: #0f1923;
+    font-weight: 600;
+    font-family: din, arial, georgia, sans-serif;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+.part5:hover {
+    color: white;
+}
+
+div a {
+    text-decoration: none;
 }
 
 footer {
     background-color: #111;
-    padding: 0px 0px 48px 0px;
+    padding: 0px 0px 0px 0px;
     border-top: 2px solid #343434;
     color: #f9f9f9;
 }
@@ -75,15 +166,34 @@ footer p {
 }
 
 footer div.marcas {
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
 }
 
 footer div.links {
     font-family: 'Silkscreen', cursive;
     background: #292929;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
 }
 
 footer div a {
     color: #f9f9f9;
+    display: inline-block;
+    padding: 0px 25px 0px 25px;
+    text-decoration: none;
+}
+
+footer div a:hover {
+    background-color: #444444;
+    padding: 10px 25px 10px 25px;
+    transition: all .2s linear;
+    border-radius: 10px;
+    
 }
