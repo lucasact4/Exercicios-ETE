@@ -7,12 +7,6 @@
     margin: 0;
 }
 
-body {
-    background-color: #292929;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 header {
     background-image: linear-gradient(to right, rgb(138, 55, 216), rgb(174, 96, 246));
     padding: 20px;
@@ -28,41 +22,74 @@ header h1 {
 
 main {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
     max-width: 1100px;
     min-width: 300px;
     margin: auto;
     padding: 10px;
 }
 
-div {
-    padding: 15px;
+.main-space {
+    max-width: 650px;
+}
+
+.bg-gray{
+    padding: 2px;
     border-radius: 15px;
     background-color: rgb(200, 200, 200);
 }
 
+.content-div {
+    padding: 12px;
+}
+
+.content-inter-div {
+    margin-top: 2px;
+    border-left: 2px solid rgba(138, 55, 216, 0.5);
+    padding-left: 6px;
+}
+
 div h1 {
-    width: 50%;
+    font-size: 32px;
     border-radius: 10px 0px 0px 0px;
+    margin: 0px !important;
     padding: 5px;
+    font-weight: bold;
     background-image: linear-gradient(to right, rgb(138, 55, 216), rgb(200, 200, 200));
     color: white;
 }
 
 div h2 {
-    width: 50%;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px !important;
     padding: 5px;
     background-image: linear-gradient(to right, rgb(165, 103, 223), rgb(200, 200, 200));
     color: white;
 }
 
 div h3 {
-    padding: 5px 0px 2px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px !important;
+    padding: 10px 0px 2px 0px;
     color: #343434;
 }
 
+div h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px !important;
+    padding: 4px 0px 2px 0px;
+    color: #343434;
+}
+
+.text-decoration-underline {
+    text-decoration: underline;
+}
+
 p {
-    padding: 3px 0px 0px 0px;
+    padding: 0px;
+    margin: 0px !important;
 }
 
 .pspace {
@@ -80,6 +107,10 @@ footer {
 a {
     color: white;
     text-decoration: none;
+}
+
+.git {
+    color: white;
 }
 
 .git:hover {
