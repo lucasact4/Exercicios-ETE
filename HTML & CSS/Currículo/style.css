@@ -42,6 +42,36 @@ main {
     padding: 12px;
 }
 
+.content-div-x {
+    padding: 0 12px;
+}
+
+.soft-skills > h4 {
+    padding: 6px 0;
+}
+
+.logo-size {
+    margin-left: 8px;
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.2));
+}
+
+.size-one {
+    margin-top: 4px;
+    height: 20px;
+}
+
+.size-two {
+    height: 40px;
+}
+
+.size-three {
+    height: 30px;
+}
+
+.size-four {
+    height: 25px;
+}
+
 .content-inter-div {
     margin-top: 2px;
     border-left: 2px solid rgba(138, 55, 216, 0.5);
@@ -100,7 +130,7 @@ footer {
     border-top: 2px solid #4b4b4b;
     background-image: linear-gradient(to right, rgb(138, 55, 216), rgb(165, 103, 223));
     color: white;
-    height: 40px;
+    min-height: 40px;
     text-align: center;
 }
 
